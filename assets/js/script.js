@@ -14,7 +14,7 @@ let log = new Log(document.querySelector('.log'));
 let char = new Assassin('Nyx');
 
 //Monkey
-let monkey = new GosthMonkey('Koba');
+let monkey = new GostMonkey('Koba');
 
 const stage = new Stage(
     char,
