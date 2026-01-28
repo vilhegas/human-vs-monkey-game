@@ -1,5 +1,5 @@
 // Assassin, Warrior and Sorcerer
-// GosthMonkey, MeatMonkey and TwinMonkey
+// GostMonkey, MeatMonkey and TwinMonkey
 
 class Character{
 
@@ -62,7 +62,7 @@ class Sorcerer extends Character{
 
 //Classe de macacos
 
-class GhosthMonkey extends Character{
+class GhostMonkey extends Character{
     constructor(){
         super('Koba');
         this.life = 100;
@@ -188,7 +188,7 @@ function createFighter(className, name) {
     case 'Warrior': return new Warrior(name);
     case 'Sorcerer': return new Sorcerer(name);
 
-    case 'GosthMonkey': return new GosthMonkey(name);
+    case 'GostMonkey': return new GostMonkey(name);
     case 'MeatMonkey': return new MeatMonkey(name);
     case 'TwinMonkey': return new TwinMonkey(name);
 
